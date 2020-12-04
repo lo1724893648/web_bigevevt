@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/lib/layui/css/layui.css">
+    <script src="./assets/lib/jquery.js"></script>
+    <script src="./assets/js/login.js"></script>
+    <title>大事件登录</title>
+</head>
+
+<body>
+
+    <div class="layui-main">
+        <img src="./assets/images/logo.png" alt="">
+    </div>
+    <!-- 登录注册区域 -->
+    <div class="box">
+        <div class="title-box"></div>
+        <!-- 登录 -->
+        <div class="denglu-box">
+            <form class="layui-form" action="">
+                <div class="layui-form-item">
+                    <i class="layui-icon layui-icon-username"></i>  
+                    <input type="text" name="username" required lay-verify="required" placeholder="请输入用户名"
+                        autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-item">
+                    <i class="layui-icon layui-icon-password"></i>  
+                    <input type="password" name="password" required lay-verify="required" placeholder="请输入密码"
+                        autocomplete="off" class="layui-input">
+                </div>
+               
+                <div class="layui-form-item ">
+                    <button class="layui-btn layui-btn-fluid layui-btn-normal" lay-submit lay-filter="formDemo">立即提交</button>
+                </div>
+                <div class="layui-form-item links">
+                    <a href="javascript:;" id="link_denglu" >去注册账号</a>
+                </div>
+            </form>
+            
+        </div>
+        <!-- 注册 -->
+        <div class="zhuce-box">
+            <a href="javascript:;" id="link_zhuce">去登陆</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
