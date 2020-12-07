@@ -24,10 +24,11 @@ body {
 .zhuce-box{
     display: none;
 }
+
 .layui-form-item{
     padding: 0 30px;
 }
-.links {
+.links,.link_zhuce {
     display: flex;
     justify-content: flex-end;
 }

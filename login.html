@@ -47,6 +47,7 @@
         <!-- 注册 -->
         <div class="zhuce-box">
             <form class="layui-form" action="" id="form_reg">
+            <form class="layui-form" action="">
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-username"></i>  
                     <input type="text" name="username" required lay-verify="required" placeholder="请输入用户名"
@@ -55,12 +56,14 @@
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>  
                     <input type="password" name="password" required lay-verify="required|pwd" placeholder="请输入密码"
+                    <input type="password" name="password" required lay-verify="required" placeholder="请输入密码"
                         autocomplete="off" class="layui-input">
                 </div>
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>  
                     <input type="password" name="repassword" required lay-verify="required|pwd|repwd" placeholder="请输入确认密码"
                         autocomplete="off" class="layui-input">
+                    
                 </div>
                
                 <div class="layui-form-item ">
